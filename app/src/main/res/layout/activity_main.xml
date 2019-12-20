@@ -38,7 +38,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginStart="@dimen/horizontal_margin"
             android:layout_marginTop="@dimen/vertical_margin"
-            android:text="@string/text_button_sample_de"
+            android:text="@string/button_sample_de"
             android:textSize="@dimen/button_text_size"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_view_caption" />
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/vertical_margin"
-            android:text="@string/text_button_sample_en"
+            android:text="@string/button_sample_en"
             android:textSize="@dimen/button_text_size"
             app:layout_constraintEnd_toStartOf="@+id/button_sample_ru"
             app:layout_constraintStart_toEndOf="@+id/button_sample_de"
@@ -63,7 +63,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/vertical_margin"
             android:layout_marginEnd="@dimen/horizontal_margin"
-            android:text="@string/text_button_sample_ru"
+            android:text="@string/button_sample_ru"
             android:textSize="@dimen/button_text_size"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_view_caption" />
@@ -76,7 +76,7 @@
             android:layout_marginTop="@dimen/vertical_margin"
             android:layout_marginEnd="20dp"
             android:focusable="true"
-            android:hint="@string/text_enter"
+            android:hint="@string/input_hint"
             android:importantForAutofill="no"
             android:inputType="text"
             android:textColorHighlight="@color/colorPrimary"
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/vertical_margin"
-            android:text="@string/text_button"
+            android:text="@string/button_enter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_edit_input" />
@@ -134,13 +134,26 @@
             android:layout_marginStart="@dimen/horizontal_margin"
             android:layout_marginTop="@dimen/vertical_big_margin"
             android:layout_marginEnd="@dimen/horizontal_margin"
-            android:layout_marginBottom="@dimen/vertical_big_margin"
             android:textSize="@dimen/details_text_size"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/button_refresh"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_view_status"
             tools:text="19. Bumfuzzle – Cattywampus, Gardyloo, Taradiddle" />
+
+        <Button
+            android:id="@+id/button_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginBottom="@dimen/vertical_margin"
+            android:text="@string/button_clean"
+            android:textSize="@dimen/button_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_details" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

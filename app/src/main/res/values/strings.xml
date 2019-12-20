@@ -1,15 +1,22 @@
 <resources>
     <string name="app_name">Spell Checker App</string>
     <string name="text_caption">@string/app_name</string>
-    <string name="text_enter">Enter Text</string>
-    <string name="text_button">OK</string>
-    <string name="text_button_sample_de">🇩🇪 DE SAMPLE</string>
-    <string name="text_button_sample_en">🇬🇧 EN SAMPLE</string>
-    <string name="text_button_sample_ru">🇷🇺 RU SAMPLE</string>
-    <string name="text_sample_de">Halo alle zuzammen! Huete is Freitag. Wir hbaen heute Morgen in unsren Kühlshrank gescaut und geseheen, dass er leer ist. Da wir am Wohenende fiele von unsren Freundeen zu einerr Party einegladen habne, müssen wir nun einen Großenikauf makhen. Liebe schmeekt wie Kavair Mädhcen sind zum küsssen da. Komm wir tanzen auf dem Tisch, bis der Tisch zusammnebricht.</string>
-    <string name="text_sample_en">Hi! Nice to meeet you and wlecome back to our univercity! The annoattions caputre insgihts by the studnt’s taecher, usng the feautres of quailty, with a view to estbalishng the lvel of achivment the text reflekts. The purose of the anotatons is to make the techers thincing visible. The annnotattons were confirmd by the Qualty Assuranc gruop, conssting of praticiing English taechers and representives of the Insepctorte, the SEC and JCT.</string>
-    <string name="text_sample_ru">Весм дборого времени сутак! Змиой мевдеди обычон сяпт, потоум-что погдоа сликшом холдная и нет еды. Поа медведь сипт, он может похудхеть на 80 (восмдесят) килограм! Некотротые люди очень похжи на медведей. Зимой лни тоже становття медлительыми и мого спят, потому-что на уулице слишком холдно и темно. Токие, вот, браат нынче новасти у нас на дерёвне. А ты присадивайся, сбешь еще этех мяких франзузских булок да выпий чяю с молиной.</string>
+    <string name="button_enter">OK</string>
+    <string name="button_clean">CLEAN</string>
+    <string name="input_hint">Enter Text</string>
     <string name="code_bubble">bubble</string>
     <string name="code_status">status</string>
     <string name="code_details">details</string>
+    <string name="text_status_ok">OK</string>
+    <string name="text_status_misspellings_pattern">Misspellings: %d words from %d</string>
+    <string name="toast_replaced_pattern">You have replaced \'%s\' to \'%s\'</string>
+    <string name="error_checker_unavailable">Spell checker service is unavailable</string>
+    <string name="error_input_empty">Input is empty</string>
+
+    <string name="button_sample_de">🇩🇪 DE SAMPLE</string>
+    <string name="button_sample_en">🇬🇧 EN SAMPLE</string>
+    <string name="button_sample_ru">🇷🇺 RU SAMPLE</string>
+    <string name="input_sample_de">Huete is Freitag. Wir hbaen heute Morgen in unsren Kühlshrank gescaut und geseheen, dass er leer ist. Da wir am Wohenende fiele von unsren Freundeen zu einerr Party einegladen habne, müssen wir nun einen Großenikauf makhen. Liebe schmeekt wie Kavair Mädhcen sind zum küsssen da. Komm wir tanzen auf dem Tisch, bis der Tisch zusammnebricht. Vogle Quax zwcikt Johnyys Pfred Bim!</string>
+    <string name="input_sample_en">The annoattions caputre insgihts by the studnt’s taecher, usng the feautres of quailty, with a view to estbalishng the lvel of achivment the text reflekts. The purose of the anotatons is to make the techers thincing visible. The annnotattons were confirmd by the Qualty Assuranc gruop, conssting of praticiing English taechers and representives of the Insepctorte, the SEC and JCT. Thee quicck brwn fox jmups ovre the lzzy dog!</string>
+    <string name="input_sample_ru">Кагда чоловек сзнатльно или интууитвно выбырает себе в жизни кокую-то цель, жызненую зодачу, он невоольно дает себе аценку. По тому, ради чого человек жывет, можноа судть и о его сомоаценке - низкйй или всокй. Если человек жевет, чтобы преносить лдям доброо, облгчать их стрдаания, довать людяи радост, то он оццуннивает себя на уррровне этой свввоей человввечччности. Он ставвт себе цель, достййную челоевка. Сбешь еще этех мяких франзузских булок да выпий чяю с молиной!</string>
 </resources>

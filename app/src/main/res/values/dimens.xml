@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="caption_size">35sp</dimen>
+    <dimen name="vertical_margin">10dp</dimen>
+    <dimen name="horizontal_margin">20dp</dimen>
+    <dimen name="button_text_size">12sp</dimen>
+    <dimen name="bubble_text_size">20sp</dimen>
+    <dimen name="vertical_big_margin">25dp</dimen>
+    <dimen name="status_text_size">22sp</dimen>
+    <dimen name="details_text_size">15sp</dimen>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/text_view_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="@string/text_caption"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/caption_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_sample_de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="@string/text_button_sample_de"
+            android:textSize="@dimen/button_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_caption" />
+
+        <Button
+            android:id="@+id/button_sample_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="@string/text_button_sample_en"
+            android:textSize="@dimen/button_text_size"
+            app:layout_constraintEnd_toStartOf="@+id/button_sample_ru"
+            app:layout_constraintStart_toEndOf="@+id/button_sample_de"
+            app:layout_constraintTop_toBottomOf="@id/text_view_caption" />
+
+        <Button
+            android:id="@+id/button_sample_ru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_edit_input"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:text="@string/text_button_sample_ru"
+            android:textSize="@dimen/button_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_view_caption" />
+
+        <EditText
+            android:id="@+id/text_edit_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="20dp"
+            android:focusable="true"
+            android:hint="@string/text_enter"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorHint="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_sample_en" />
+
+        <Button
+            android:id="@+id/button_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="@string/text_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_edit_input" />
+
+        <TextView
+            android:id="@+id/text_view_bubble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:background="@drawable/bubble"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/bubble_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_status"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_enter"
+            tools:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
+
+        <TextView
+            android:id="@+id/text_view_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/vertical_big_margin"
+            android:textSize="@dimen/status_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_bubble"
+            tools:text="Misspellings: 8 words from 20" />
+
+        <TextView
+            android:id="@+id/text_view_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_big_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:layout_marginBottom="@dimen/vertical_big_margin"
+            android:textSize="@dimen/details_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_status"
+            tools:text="19. Bumfuzzle – Cattywampus, Gardyloo, Taradiddle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
